@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+     
+
+
+        <Button
+            android:id="@+id/courses"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Courses"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Map"
+            android:textSize="10dp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+           
+
+            <TextView
+                android:id="@+id/textViewb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Sacred Theology"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/course2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Philosophy"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/course3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Canon Law"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Civil Law"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewm12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+
+            <TextView
+                android:id="@+id/course5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Medicine and Surgery"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViews12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Pharmacy"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/textViewq12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Arts and Letters"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsh12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Engineering"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsg12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Education"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsf12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Science"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsd12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Architecture"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewss12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Commerce and Business Administration"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/textViewso12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conservatory of Music"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsi12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Nursing"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsu12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Rehabilitation Sciences"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsy12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Fine Arts and Design"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewst12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMV College of Accountancy"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewsr12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Tourism and Hospitality Management"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/textViewsw12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/course21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Institute of Physical Education and Athletics"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

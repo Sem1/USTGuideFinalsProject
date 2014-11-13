@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ustguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Courses"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".Course1"
+            android:label="@string/title_activity_course1" >
+        </activity>
+        <activity
+            android:name=".Course2"
+            android:label="@string/title_activity_course2" >
+        </activity>
+        <activity
+            android:name=".Course3"
+            android:label="@string/title_activity_course3" >
+        </activity>
+        <activity
+            android:name=".Course4"
+            android:label="@string/title_activity_course4" >
+        </activity>
+        <activity
+            android:name=".Course5"
+            android:label="@string/title_activity_course5" >
+        </activity>
+        <activity
+            android:name=".Course6"
+            android:label="@string/title_activity_course6" >
+        </activity>
+        <activity
+            android:name=".Course7"
+            android:label="@string/title_activity_course7" >
+        </activity>
+        <activity
+            android:name=".Course8"
+            android:label="@string/title_activity_course8" >
+        </activity>
+        <activity
+            android:name=".Course9"
+            android:label="@string/title_activity_course9" >
+        </activity>
+        <activity
+            android:name=".Course10"
+            android:label="@string/title_activity_course10" >
+        </activity>
+        <activity
+            android:name=".Course11"
+            android:label="@string/title_activity_course11" >
+        </activity>
+        <activity
+            android:name=".Course12"
+            android:label="@string/title_activity_course12" >
+        </activity>
+        <activity
+            android:name=".Course14"
+            android:label="@string/title_activity_course14" >
+        </activity>
+        <activity
+            android:name=".Course15"
+            android:label="@string/title_activity_course15" >
+        </activity>
+        <activity
+            android:name=".Course16"
+            android:label="@string/title_activity_course16" >
+        </activity>
+        <activity
+            android:name=".Course17"
+            android:label="@string/title_activity_course17" >
+        </activity>
+        <activity
+            android:name=".Course18"
+            android:label="@string/title_activity_course18" >
+        </activity>
+        <activity
+            android:name=".Course19"
+            android:label="@string/title_activity_course19" >
+        </activity>
+        <activity
+            android:name=".Course21"
+            android:label="@string/title_activity_course21" >
+        </activity>
+    </application>
+
+</manifest>

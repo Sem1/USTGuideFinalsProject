@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+
+        <Button
+            android:id="@+id/courses"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Courses"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:text="Map"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- Put image and number here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+            <TextView
+                android:id="@+id/degree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree Program Offerings"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/course3.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor in Canon Law"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+
+
+            <TextView
+                android:id="@+id/course3.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Licentiate in Canon Law"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            <TextView
+                android:id="@+id/course3.3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctorate in Canon Law"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

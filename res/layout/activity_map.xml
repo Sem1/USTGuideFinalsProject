@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+        <Button
+            android:id="@+id/courses"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Courses"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Map"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1247dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ust" 
+                android:contentDescription="@string/map"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/semgym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Seminary Gymansium"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            
+
+
+            <TextView
+                android:id="@+id/plaza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Plaza Mayor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            
+
+            <TextView
+                android:id="@+id/bgarden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Botanical garden"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            
+
+
+            <TextView
+                android:id="@+id/benavidez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Benavidez Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            
+
+            <TextView
+                android:id="@+id/bagdeprt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.UST Buildings and Grounds Department"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+          
+
+            <TextView
+                android:id="@+id/pe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.PE Annex"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+           
+            <TextView
+                android:id="@+id/st.raymund"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.St. Raymund of Peñafort Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/st.martin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.St. Martin de Porres Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+           
+            <TextView
+                android:id="@+id/usthospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.UST Hospital Clinical Division OPD"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/cseminary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.Central Seminary"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/pnovalcourt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.UST Covered Court (P.Noval Court)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/bogarden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.Botanical Garden"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/plazacalderon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.Plaza Calderon"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/santsimo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14.Santisimo Rosario Parish Church and Dominican Residence"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15.UST Main Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/museumarts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16.Museum of Arts and Sciences"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/cancerresearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17.Benavidez Cancer Research Institute"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/usthospital1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18.UST Hospital"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/extension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19.UST Hospital Extension Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/healthservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20.UST Health Services"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/publishinghouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21.UST Publishing House"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/alumnicenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22.Thomasian Alumni Center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/bpark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23.Benavidez Park"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/carpark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24.UST Multi-deck Car park/Alfredo M. Velayo Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/pool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25.UST Swimming Pool"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/grandstand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26.Grandstand"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/gradschool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27.Grade School Playground"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/domus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28.Domus Mariae International Residence"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/beato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29.Beato Angelico Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/roque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30.Fr. Roque Ruaño, O.P. Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tinoco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31.Tinoco Park"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/fountain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32.Fountain of Knowledge"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/arch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="33.Arch of the Centuries"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/wisdom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34.Fountain of Wisdom"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/albertus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35.Albertus Magnus Building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/alumni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36.The Alumni Walkway"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tanyankee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="37.UST Tan Yan Kee Student Center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/anatomy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38.Anatomy Laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/medaudi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="39.Medicine Auditorium"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/library"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40.Miguel de Benavides Library"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/monument"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="41.Quattromondial Monument"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/quadfountain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42.Quadricentennial Fountain"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="43.Football Field/Parade Grounds/Open Field"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/thomas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="44.Thomas Aquinas Research Complex"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/sportscomplex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45.UST Sports Complex"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

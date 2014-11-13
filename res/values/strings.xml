@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UST guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="map">ust map</string>
+    <string name="title_activity_course1">Faculty of Sacred Theology</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_course2">Faculty of Philosophy</string>
+    <string name="title_activity_course3">Faculty of Canon Law</string>
+    <string name="title_activity_course4">Faculty of Civil Law</string>
+    <string name="title_activity_course5">Faculty of Medicine and Surgery</string>
+    <string name="title_activity_course6">Faculty of Pharmacy</string>
+    <string name="title_activity_course7">Faculty of Arts and Letters</string>
+    <string name="title_activity_course8">Faculty of Engineering</string>
+    <string name="title_activity_course9">College of Education</string>
+    <string name="title_activity_course10">College of Science</string>
+    <string name="title_activity_course11">College of Architecture</string>
+    <string name="title_activity_course12">College of Commerce and Business Administration</string>
+    <string name="title_activity_course14">Conservatory of Music</string>
+    <string name="title_activity_course15">College of Nursing</string>
+    <string name="title_activity_course16">College of Rehabilitation Sciences</string>
+    <string name="title_activity_course17">College of Fine Arts and Design</string>
+    <string name="title_activity_course18">AMV College of Accountancy</string>
+    <string name="title_activity_course19">College of Tourism and Hospitality Management</string>
+    <string name="title_activity_course21">Institute of Physical Education and Athletics</string>
+    
+    
+
+</resources>

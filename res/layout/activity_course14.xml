@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+
+        <Button
+            android:id="@+id/courses"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Courses"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:text="Map"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- Put image and number here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+            <TextView
+                android:id="@+id/degree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree Program Offerings"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/course1.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Piano"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            >
+
+
+            <TextView
+                android:id="@+id/course1.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Music Education"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            <TextView
+                android:id="@+id/course1.3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Guitar"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Voice"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+           
+            
+            <TextView
+                android:id="@+id/course1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Music Literature"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Music Theory"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Composition"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Conducting"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Percussion"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Violin / Viola / Cello / Contrabass"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Flute / Oboe / Clarinet / Bassoon"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Trumpet / Trombone / French Horn / Tuba"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+            
+            <TextView
+                android:id="@+id/course1.13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Musical Theatre"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+           
+            
+            <TextView
+                android:id="@+id/course1.14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Music in Music Technology"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
